@@ -1,0 +1,387 @@
+/* * Smartphones (portrait and landscape) ----------- */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  small {
+    font-size: 0.5em;
+  }
+
+  h1 {
+    font-size: 30px;
+    font: 'Roboto';
+    font-weight: lighter;
+    letter-spacing: -2px, ;
+    color: black;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1em;
+    font-family: 'Mali', cursive;
+    font-weight: lighter;
+    text-decoration: none;
+
+  }
+
+  p {
+    font-size: 16px;
+    font: 'Roboto';
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+  }
+
+  /*classe general*/
+  .container {
+    width: 100%;
+  }
+
+
+  /*nav*/
+
+  .app_barre_action ul:nth-child(1) {
+    display:flex;
+  }
+  .app_barre_action ul:nth-child(2) {
+    display:flex;
+
+  }
+  .app_barre_action ul:nth-child(3) {
+    display: none;
+  }
+
+  .app_barre_action ul:nth-child(4) {
+    display: flex;
+    width: 40px;
+  }
+  .logo_resp img
+  {
+    height: 20px;
+  }
+
+
+
+  .app_barre_action li a {
+    padding: 5px;
+    font-size: 0.9em;
+  }
+  .app_barre_action li {
+    padding: 5px;
+  }
+
+  /*header*/
+  .main>header {
+    background-position: center;
+    padding-top: 5px;
+  }
+
+  .btn_header {
+    font-size: 15px;
+    margin-left: 18%;
+  }
+
+  .titel_btn {
+    width: 320px;
+  }
+
+  .btn_header {
+    font-size: 20px;
+  }
+
+  /*bandeau_promo*/
+  .main h3 {}
+
+  .bandeau_promo {
+    display: block;
+    height: auto;
+    text-align: center;
+  }
+
+  .text_title_bandeau_promo {}
+
+  .bandeau_promo a {}
+
+  /* main/concepte du site*/
+  .concept_web {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .concept_web div {
+    flex-direction: column;
+  }
+
+  .concept_web li {
+    width: 60%;
+  }
+  .concept_web h2{
+  font-size: 1em;
+  text-align:  center;
+  }
+  .concept_web img {
+  height: 300px;
+  }
+.reponsive_diplay_none
+{
+  display: none;
+}
+.majuscule
+{
+  text-transform: uppercase;
+}
+  /* Presentation article*/
+.Presnetation_article h2
+{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+  .product_row {
+flex-direction: column;
+margin: 0px;
+  }
+
+  .description
+  {
+    padding-right: 10px;
+  }
+  /*  footer*/
+
+
+.text_footer p{
+  padding: 10px;
+}
+
+.footer_nav {
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.formulair form
+{
+  text-align: center;
+}
+.footer_ul
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer_nav ul
+{
+  width: 120px;
+  text-align: center;
+}
+.footer_flex
+{
+  flex-direction: column;
+}
+.text_footer
+{
+  width: 380px;
+}
+.footer_ul ul
+{
+  padding-bottom: 30px
+}
+textarea
+{
+  width: 300px;
+}
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  small {
+    font-size: 0.5em;
+  }
+
+  h1 {
+    font-size: 30px;
+    font: 'Roboto';
+    font-weight: lighter;
+    letter-spacing: -2px, ;
+    color: black;
+    text-align: center;
+    margin-top: 0 0px;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-family: 'Mali', cursive;
+    font-weight: lighter;
+    text-decoration: none;
+  }
+
+  p {
+    font-size: 16px;
+    font: 'Roboto';
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+  }
+
+  /*classe general*/
+  .container {
+    width: 100%;
+  }
+
+  /*nav*/
+
+  .app_barre_action ul:nth-child(1) {
+    display:flex;
+  }
+  .app_barre_action ul:nth-child(2) {
+    display:flex;
+
+  }
+  .app_barre_action ul:nth-child(3) {
+    display: none;
+  }
+
+  .app_barre_action ul:nth-child(4) {
+    display: flex;
+    width: 40px;
+  }
+  .logo_resp img
+  {
+    height: 20px;
+  }
+
+  .app_barre_action li a {
+    padding: 5px;
+    font-size: 0.9em;
+  }
+
+  /*header*/
+  .main>header {
+    background-position: center;
+    padding-top: 5px;
+    text-align: center;
+  }
+
+  .btn_header {
+    font-size: 15px;
+
+  }
+
+  .titel_btn {
+    width: 320px;
+  }
+
+  .btn_header {
+    font-size: 20px;
+  }
+
+  /*bandeau_promo*/
+  .main h3 {}
+
+  .bandeau_promo {
+    display: block;
+    height: auto;
+    text-align: center;
+  }
+
+  .text_title_bandeau_promo {}
+
+  .bandeau_promo a {}
+
+  /* main/concepte du site*/
+  .concept_web {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .concept_web div {
+    flex-direction: column;
+  }
+
+
+.reponsive_diplay_none
+{
+  display: none;
+}
+.majuscule
+{
+  text-transform: uppercase;
+}
+  /* Presentation article*/
+.Presnetation_article h2
+{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+  .product_row {
+flex-direction: column;
+margin: 0px;
+  }
+  /*  footer*/
+
+
+  .footer_nav {
+      justify-content: space-between;
+      flex-direction: column;
+      flex-wrap: wrap;
+  }
+  .formulair
+  {
+    padding: 20px;
+  }
+  .formulair form
+  {
+    text-align: center;
+  }
+  .footer_ul
+  {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer_nav ul
+  {
+    width: 120px;
+    text-align: center;
+  }
+  .footer_flex
+  {
+    flex-direction: column;
+  }
+  .text_footer
+  {
+    width: 380px;
+  }
+  .footer_ul ul
+  {
+    padding-bottom: 30px
+  }
+
+
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  .main>header {
+
+    padding-top: 5px;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width:320px) and (max-device-width : 800px) {
+  .main>header {
+
+    padding-top: 5px;
+    text-align: center;
+  }
+
+}
